@@ -15,6 +15,9 @@
 		2194233A1F38D1F50098DDB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219423381F38D1F50098DDB3 /* LaunchScreen.storyboard */; };
 		219423451F38D1F50098DDB3 /* CommentInputBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 219423441F38D1F50098DDB3 /* CommentInputBarTests.m */; };
 		219423501F38D1F50098DDB3 /* CommentInputBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2194234F1F38D1F50098DDB3 /* CommentInputBarUITests.m */; };
+		2194235F1F38D24F0098DDB3 /* CommentInputBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2194235E1F38D24F0098DDB3 /* CommentInputBar.m */; };
+		219423631F38D3700098DDB3 /* UIView+Fang.m in Sources */ = {isa = PBXBuildFile; fileRef = 219423621F38D3700098DDB3 /* UIView+Fang.m */; };
+		219423661F38D3E00098DDB3 /* NSString+Fang.m in Sources */ = {isa = PBXBuildFile; fileRef = 219423651F38D3E00098DDB3 /* NSString+Fang.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,13 @@
 		2194234B1F38D1F50098DDB3 /* CommentInputBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommentInputBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2194234F1F38D1F50098DDB3 /* CommentInputBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentInputBarUITests.m; sourceTree = "<group>"; };
 		219423511F38D1F50098DDB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2194235D1F38D24F0098DDB3 /* CommentInputBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentInputBar.h; sourceTree = "<group>"; };
+		2194235E1F38D24F0098DDB3 /* CommentInputBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentInputBar.m; sourceTree = "<group>"; };
+		219423601F38D2710098DDB3 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		219423611F38D3700098DDB3 /* UIView+Fang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Fang.h"; sourceTree = "<group>"; };
+		219423621F38D3700098DDB3 /* UIView+Fang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Fang.m"; sourceTree = "<group>"; };
+		219423641F38D3E00098DDB3 /* NSString+Fang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Fang.h"; sourceTree = "<group>"; };
+		219423651F38D3E00098DDB3 /* NSString+Fang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Fang.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,13 @@
 				2194232E1F38D1F40098DDB3 /* AppDelegate.m */,
 				219423301F38D1F40098DDB3 /* ViewController.h */,
 				219423311F38D1F40098DDB3 /* ViewController.m */,
+				2194235D1F38D24F0098DDB3 /* CommentInputBar.h */,
+				2194235E1F38D24F0098DDB3 /* CommentInputBar.m */,
+				219423641F38D3E00098DDB3 /* NSString+Fang.h */,
+				219423651F38D3E00098DDB3 /* NSString+Fang.m */,
+				219423611F38D3700098DDB3 /* UIView+Fang.h */,
+				219423621F38D3700098DDB3 /* UIView+Fang.m */,
+				219423601F38D2710098DDB3 /* Config.h */,
 				219423331F38D1F40098DDB3 /* Main.storyboard */,
 				219423361F38D1F40098DDB3 /* Assets.xcassets */,
 				219423381F38D1F50098DDB3 /* LaunchScreen.storyboard */,
@@ -276,8 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2194235F1F38D24F0098DDB3 /* CommentInputBar.m in Sources */,
+				219423661F38D3E00098DDB3 /* NSString+Fang.m in Sources */,
 				219423321F38D1F40098DDB3 /* ViewController.m in Sources */,
 				2194232F1F38D1F40098DDB3 /* AppDelegate.m in Sources */,
+				219423631F38D3700098DDB3 /* UIView+Fang.m in Sources */,
 				2194232C1F38D1F40098DDB3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
