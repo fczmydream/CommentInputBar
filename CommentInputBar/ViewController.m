@@ -32,7 +32,8 @@
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake((SCREEN_WIDTH-100)/2, 200, 100, 45);
     [button setTitle:@"回复" forState:UIControlStateNormal];
-    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [button setTitleColor:Color(61, 1) forState:UIControlStateNormal];
+    [button.titleLabel setFont:Font(13)];
     [button addTarget:self action:@selector(btnFun) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
     
